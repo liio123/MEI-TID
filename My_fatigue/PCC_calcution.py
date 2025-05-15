@@ -132,7 +132,7 @@ def decompose_to_correlation(file):
 
 # if __name__ == '__main__':
 #     # 加载每次选取30s视频后的原始数据文件
-#     folder_path = 'E:/组合脑相关内容/SEED/第三个会话/raw'
+#     folder_path = 'E:/XXX/SEED/第三个会话/raw'
 #     # 获取指定文件夹下的所有.mat文件名,os.listdir()函数用于获取指定文件夹下的所有文件名
 #     file_names = [f for f in os.listdir(folder_path) if f.endswith('.npy')]
 #     for file_name in file_names:
@@ -147,7 +147,7 @@ def decompose_to_correlation(file):
 
 if __name__ == '__main__':
     # Fill in your SEED-VIG dataset path
-    filePath = 'E:/博士成果/跟吴老师的第一篇文章/数据集/My_fatigue/'
+    filePath = 'E:/博士成果/XXX/数据集/My_fatigue/'
     dataName = ['llq_renwu1.mat', 'llq_renwu2.mat', 'llq_renwu3.mat',
                 'lxy_renwu1.mat', 'lxy_renwu2.mat', 'lxy_renwu3.mat',
                 'yw_renwu1.mat', 'yw_renwu2.mat', 'yw_renwu3.mat',
